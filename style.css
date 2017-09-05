@@ -1,0 +1,6 @@
+table th, table td {
+    text-align: center; 
+}
+#cond1, #jour1, #cond2, #jour2, #cond3, #jour3 {
+    padding-top: 20px;
+}

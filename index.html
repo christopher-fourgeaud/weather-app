@@ -5,11 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1 id="test"></h1>
-    
+    <div class="container">
+        <h3>Météo de la ville de <span id="city1"></span>.</h3>
+        <div class="row col-sm-4">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th class="col-sm-5">Jour</th>
+                        <th class="col-sm-5">Température</th>
+                        <th class="col-sm-2">Condition</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="jour1">Aujourd'hui</td>
+                        <td id="cond1" >test</td>
+                        <td id="icon1" >test</td>
+                    </tr>
+                    <tr>
+                        <td id="jour2">Demain</td>
+                        <td id="cond2" >test</td>
+                        <td id="icon2">test</td>
+                    </tr>
+                    <tr>
+                        <td id="jour3">Après-demain</td>
+                        <td id="cond3" >test</td>
+                        <td id="icon3">test</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
     <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
